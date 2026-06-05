@@ -7,6 +7,9 @@ public class StudentResultCalculator {
         System.out.println("Enter the Student Name: ");
         Scanner sc=new Scanner(System.in);
         String name=sc.nextLine();
+        System.out.println("Enter the Kannada Marks: ");
+        int Kannada=sc.nextInt();
+        System.out.println();
 
 
 
