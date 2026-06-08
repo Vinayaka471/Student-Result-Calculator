@@ -23,10 +23,27 @@
             System.out.println("Total marks: "+total);
             double percentage=(total/600.00)*100;
             System.out.println("Total percentage of the students: "+percentage);
-
-
-
-
-
+            char grade;
+            if(percentage>=90){
+                System.out.println("Student grade: A+");
+            }
+            else if(percentage>=80){
+                System.out.println("Student grade: A");
+            }
+            else if(percentage>=70){
+                System.out.println("Student grade: B");
+            }
+            else if(percentage>=60){
+                System.out.println("Student grade: C");
+            }
+            else if(percentage>=50){
+                System.out.println("Student grade: D");
+            }
+            else if(percentage>=40){
+                System.out.println("Student grade: E");
+            }
+            else{
+                System.out.println("Fail");
+            }
         }
     }
